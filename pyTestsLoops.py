@@ -27,3 +27,18 @@ for i in range(rows): #outer loop i
     for j in range(columns): #inner loop j
         print(symbol, end="")
     print()
+
+#Loop Control statements
+# break = terminates loop / continue skips to the next iteration of the loop / pass
+
+while True:
+    name = input("Enter your name: ")
+    if name != "":
+        break
+
+phone = "111-222-3333"
+
+for i in phone:
+    if i =="-":
+        continue
+    print(i, end="")
